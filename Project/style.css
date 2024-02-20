@@ -100,6 +100,7 @@ a:hover{
     margin: 20px 0 30px 0;
 }
 .main_info>div>p{
+    color: rgba(255, 255, 255, 0.70);
     font-size: 21px;
     margin: 0 0 40px 0;
     line-height: 39px;
@@ -149,6 +150,7 @@ a:hover{
     letter-spacing: -0.657px;
     width: 49%;
     margin: 0;
+    color: rgba(255, 255, 255, 0.70);
 }
 
 .big_photo>div>img{
@@ -200,6 +202,7 @@ a:hover{
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 0.70);
 }
 .blue_oval{
     position: absolute;
@@ -317,4 +320,5 @@ footer>div>p{
     font-size: 16px;
     line-height: 38px;
     letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 0.70);
 }

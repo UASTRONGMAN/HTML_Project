@@ -86,15 +86,14 @@
     }
     /*----------------------Provide services----------------------*/
     .provide_services{
-        width: 100%;
         height: 1994px;
-        align-items: flex-start;
     }
     .provide_services>h2{
-        width: 80%;
+        width: 327px;
         margin: 140px 0 98px 0;
         font-size: 36px;
         line-height: 150%;
+        text-align: left;
     }
     .wrap{
         width: 327px;
@@ -102,6 +101,101 @@
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
+    }
+    .wrap>div{
+        height: 198px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .wrap>div>h4{
+        margin: 42px 0 24px 0;
+        font-size: 24px;
+        letter-spacing: -0.75px;
+    }
+    .wrap>div>p{
+        font-size: 16px;
+        line-height: 28px;
+        width: 300px;
+        margin: 0;
+    }
+    /*----------------------Portfolio----------------------*/
+    .portfolio{
+        height: 973px;
+    }
+    .portfolio>div{
+        width: 327px;
+        height: 100%;
+    }
+    .portfolio h2{
+        width: 100%;
+        font-size: 36px;
+        line-height: 150%;
+        margin: 188px 0 70px 0;
+    }
+    #second, #third{
+        display: none;
+    }
+    .cover{
+        width: 100%;
+        height: 294px;
+    }
+    .frame_img{
+        width: 115%;
+    }
+    .portfolio_img{
+        width: 100%;
+        border-radius: 12px;
+    }
+    .frame{
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+    /*----------------------Contact us----------------------*/
+    .contact_us{
+        width: 100%;
+        height: 832px;
+    }
+    .contact_us>div{
+        width: 327px;
+        height: 832px;
 
+    }
+    .contact_us>div>div{
+        width: 327px;
+        height: 476px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .contact_us div div h2{
+        font-size: 36px;
+        line-height: 150%;
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+    footer{
+        width: 100%;
+        height: 356px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    footer>div>img{
+        width: 27px;
+        position: relative;
+        bottom: -2.5px;
+        margin: 0 5px 0 0;
+    }
+    footer>p{
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 0 50px 0;
+    }
+    .mobile{
+        display: block;
     }
 }
